@@ -53,7 +53,7 @@ const Header = () => {
             </span>
             <ShoppingCartIcon className="h-10" />
             <p className="hidden md:inline font-extrabold md:text-sm mt-2">
-              Carrito
+              Cart
             </p>
           </div>
           </div>
@@ -69,7 +69,7 @@ const Header = () => {
         <p className="link"> Amazon Business </p>
         <p className="link"> Today's deals </p>
         <p className="link hidden lg:inline-flex"> Electronics</p>
-        <p className="link hidden lg:inline-flex"> Food * Grocery</p>
+        <p className="link hidden lg:inline-flex"> Food & Grocery</p>
         <p className="link hidden lg:inline-flex"> Prime</p>
         <p className="link hidden lg:inline-flex"> Buy Again</p>
         <p className="link hidden lg:inline-flex"> Shopkeeper toolkit</p>
