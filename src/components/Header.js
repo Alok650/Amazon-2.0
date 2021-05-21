@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <header>
         <div className="flex items-center bg-amazon_blue p-1 flex-grow py-">
-        <div className="mt-4 flex items-center flex-grow sm:flex-grow-0">
+        <div className="mt-2 flex items-center flex-grow sm:flex-grow-0">
           <Image
             src="https://links.papareact.com/f90"
             width={150}
@@ -38,13 +38,13 @@ const Header = () => {
             />
             </div>
           <div className=" link">
-            <p> !Hola Juli!</p>
-            <p className="font-extrabold md:text-sm ">Cuenta y Listas</p>
+            <p> Hello, Alok Prasad!</p>
+            <p className="font-extrabold md:text-sm ">Account & Lists </p>
           </div>
 
           <div className=" link">
-            <p>Devoluciones</p>
-            <p className="font-extrabold md:text-sm ">y Pedidos</p>
+            <p>Returns</p>
+            <p className="font-extrabold md:text-sm ">Orders</p>
           </div>
 
           <div className="relative link flex items-center ">
@@ -63,17 +63,17 @@ const Header = () => {
       <div className="flex items-center space-x-3 p-2 pl-6 bg-amazon_blue-light text-white text-sm">
         <p className="link flex items-center">
           <MenuIcon className="h-6 mr-1" />
-          Todo
+          All
         </p>
         <p className="link"> Prime Video </p>
-        <p className="link"> Amazon para el trabajo </p>
-        <p className="link"> Oferta del día </p>
-        <p className="link hidden lg:inline-flex"> Electrónicos</p>
-        <p className="link hidden lg:inline-flex"> Alimentos</p>
+        <p className="link"> Amazon Business </p>
+        <p className="link"> Today's deals </p>
+        <p className="link hidden lg:inline-flex"> Electronics</p>
+        <p className="link hidden lg:inline-flex"> Food * Grocery</p>
         <p className="link hidden lg:inline-flex"> Prime</p>
-        <p className="link hidden lg:inline-flex"> Comprar de nuevo</p>
-        <p className="link hidden lg:inline-flex"> Kit de compras</p>
-        <p className="link hidden lg:inline-flex"> Salud y cuidado personal</p>
+        <p className="link hidden lg:inline-flex"> Buy Again</p>
+        <p className="link hidden lg:inline-flex"> Shopkeeper toolkit</p>
+        <p className="link hidden lg:inline-flex"> Health & personal care</p>
       </div>
     </header>
     )
