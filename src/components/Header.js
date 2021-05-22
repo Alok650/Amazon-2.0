@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from "next/image";
+
 import {
     MenuIcon,
     SearchIcon,
@@ -21,22 +22,13 @@ const Header = () => {
         </div>
         <div className="hidden sm:flex items-center h-10 rounded-md flex-grow cursor-pointer bg-yellow-400 hover:bg-yellow-500">
           <input
-            className="p-2 h-full w-6 flex-grow rflex-shrink rounded-l-md focus:outline-none p-4"
+            className="p-4 h-full w-6 flex-grow rflex-shrink rounded-l-md focus:outline-none"
             type="text"
           />
           <SearchIcon className="h-12 p-4" />
         </div>
         {/* Right*/}
         <div className="text-white flex items-center text-xs space-x-6 mx-6 whitespace-nowrap">
-          <div>
-            <Image
-              src="/images/colombiaflag.png"
-              width={50}
-              height={20}
-              objectFit="contain"
-              className="cursor-pointer"
-            />
-            </div>
           <div className=" link">
             <p> Hello, Alok Prasad!</p>
             <p className="font-extrabold md:text-sm ">Account & Lists </p>
