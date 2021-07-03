@@ -2,6 +2,8 @@ import Head from "next/head";
 import Header from "../components/Header"
 import Banner from "../components/Banner"
 import ProductFeed from "../components/Productfeed"
+import Footer from "../components/Footer";
+
 export default function Home({ products }) {
   return (
     <div className = 'bg-gray-100'>
@@ -18,6 +20,7 @@ export default function Home({ products }) {
           {/* Productfeed */}
           <ProductFeed products = { products }/>
         </main>
+        <Footer />
       {/* ---- ---- */}
     </div>
   );
